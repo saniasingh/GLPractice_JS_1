@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeOut Practice</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Click the image to start the timer. ( 15 sec )</h1>
+      <img
+        src="360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+        id="image"
+        onclick="countDown()"
+      />
+      <div id="timeBox">
+        <h2>Time left :</h2>
+        <input id="sec" type="text" readonly />
+        <p id="msg"></p>
+      </div>
+    </div>
+  </body>
+</html>
